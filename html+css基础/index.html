@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head><!-- head放css,js -->
+		<meta charset="UTF-8"><!-- 设置当前页面字符集为utf-8 -->
+		<title>html+CSS基础巩固篇</title>
+<!--   html注释：本次注释样式
+	   style标签（Css）里注释：// 
+	   注释快捷键：Ctrl+/
+	   注释取消快捷键：Ctrl+Shift+/   -->
+	   <link rel="stylesheet" type="text/css" href="./css/html+css基础巩固.css"/>
+	   <style type="text/css">
+	/*   div{
+		   font-family:"宋体";
+		   font-size:50px;
+	   } */
+	   
+	   table{
+		   border:red 1px solid;
+		  border-collapse: collapse;
+		
+		  margin:0 auto; /*或者也可以 margin-left: auto;
+		                             margin-right: auto; */
+	   }
+	   td{
+		    border:red 1px dashed;
+	
+	   }
+	 
+	   </style>
+	</head>
+	<body bgcolor="#f0ffff"  > <!-- onclick="alert('你傻吗') "-->
+		<!-- <h1>1</h1>
+		<h2>2</h2>
+		<h3>3</h3>
+		<h4>4</h4>
+		<h5>5</h5>
+		<h6>6</h6>
+		<button onclick="alert('你傻吗')">点击一下</button>
+		<div width="200px" style="border: red 2px dashed;" color="blue" align="center">7</div>
+		<p  width="200px"  style="border:red 2px dashed;" color="blue" align="center">8</p>
+		<span style="face-style:"宋体";font-size:20px;">9</span>
+		<center></center>
+		<font ></font>
+		<img src="./img/1.jpg" width="200px" height="200px"  alt="王林不在了" style="border:red 2px dashed;" />
+		<a href="" target=""></a>
+		&lt;&nbsp;a&nbsp;&gt; -->
+		
+		
+		
+	 
+		<form action="http://localhost:8080" method="post">
+		<h1 align="center">用户注册</h1>
+		<input type="hidden" name="action" value="post"/>
+		<table  name="a"> <!-- table 标签加属性cellspacing="0";也可使边线重合 --> 
+		     
+			<tr>
+				<td>用户名称：</td>
+				<td><input type="text" name="username" value="ypy"  /></td>
+			</tr>
+			<tr>
+				<td>用户密码：</td>
+				<td><input type="password" name="psw" value="123"  /></td>
+			</tr>
+			<tr>
+				<td>确认密码：</td>
+				<td><input type="password" name="qpsw" value="123"  /></td>
+			</tr>
+			<tr>
+				<td>性别：</td>
+				<td>
+				   男<input type="radio" name="sex" value="男"  />
+				   女<input type="radio" name="sex" value="女" checked="checked" />
+				</td>
+			</tr>
+			<tr>
+				<td>兴趣爱好：</td>
+				<td>
+					绘画<input type="checkbox" name="hobby" value="draw"  />
+				    唱歌<input type="checkbox" name="hobby" value="sing"  />
+					跳舞<input type="checkbox" name="hobby" value="dance"  />
+					写代码<input type="checkbox" name="hobby" value="coding"  />
+				</td>
+			</tr>
+			<tr>
+				<td>国籍：</td>
+				<td>
+					<select>
+						<option selected="selected" value="cn">中国</option>
+						<option value="us">美国</option>
+						<option  value="uk"></option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>自我评价：</td>
+				<td><textarea rows="8" cols="6">123</textarea></td>
+			</tr>
+			<tr>
+				<td><input type="reset"/></td>
+				<td align="center"><input type="submit"/></td>
+			</tr>
+		</table>
+		
+		<div>33</div>
+		
+		</form>
+		<iframe src="http://www.baidu.com" name="ww"></iframe>
+		<ul>
+			<li><a href="" target="ww">1</a></li><!-- href里不填默认是当前页面的地址 -->
+			<li><a href="" target="ww">2</a></li>
+			<li><a href="" target="ww">3</a></li>
+			<li><a href="" target="ww">4</a></li>
+			<li><a href="" target="_blank" target="a">5</a></li>
+		</ul>
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
